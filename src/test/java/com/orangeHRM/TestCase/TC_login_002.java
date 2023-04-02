@@ -3,6 +3,7 @@ package com.orangeHRM.TestCase;
 
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.orangeHRM.Pom.LoginPage;
 import com.orangeHRM_base.Base_Class;
@@ -10,7 +11,7 @@ import com.orangeHRM_base.Base_Class;
 public class TC_login_002 extends BS{
  
 
-		@Test
+		@BeforeMethod
 		public void LoginTest() throws InterruptedException {
 			
 			driver.get(burl);
@@ -38,7 +39,8 @@ public class TC_login_002 extends BS{
 			 Assert.assertTrue(false);
 			 logger.info("Assertion is failed ");
 		    }
-			 
+			System.out.println("Login Successful");
 		}	
+		
 	}
 

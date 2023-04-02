@@ -46,7 +46,7 @@ public class BS {
 			
 		}
 	logger=LogManager.getLogger(TC_login_002.class);
-		
+		System.out.println("Setup is open");
 	}
 	
 	@AfterClass
