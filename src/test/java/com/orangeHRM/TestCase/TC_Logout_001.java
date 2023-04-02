@@ -14,6 +14,7 @@ public class TC_Logout_001 extends TC_login_002 {
 		Thread.sleep(10000);
 		lg.clickonLogout();
 		Thread.sleep(10000);
+		System.out.println("Logout Successful");
 	}
 
 }
