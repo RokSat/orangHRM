@@ -2,6 +2,8 @@ package com.orangeHRM.TestCase;
 
 
 
+import java.util.concurrent.TimeUnit;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -15,8 +17,8 @@ public class TC_login_002 extends BS{
 		public void LoginTest() throws InterruptedException {
 			
 			driver.get(burl);
-			Thread.sleep(10000);
-			logger.info("Url is opened");
+			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+			logger.info(" Base_Url is opened");
 			
 			LoginPage lp = new LoginPage(driver);
 			
@@ -28,16 +30,15 @@ public class TC_login_002 extends BS{
 			
 			lp.clickOnLogin();
 		
-			
 			if(driver.getTitle().equals("OrangeHRM"))
 			{
 			 Assert.assertTrue(true);
-			 logger.info("Assertion is passed");
+			 logger.info("Assertion is passed : Title Found OrangeHRM ");
 			}
 			else
 			{
 			 Assert.assertTrue(false);
-			 logger.info("Assertion is failed ");
+			 logger.info("Assertion is failed : Title Not Found");
 		    }
 			System.out.println("Login Successful");
 		}	

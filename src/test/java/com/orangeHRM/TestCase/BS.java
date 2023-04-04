@@ -1,5 +1,7 @@
 package com.orangeHRM.TestCase;
 
+import java.util.concurrent.TimeUnit;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -45,8 +47,12 @@ public class BS {
 			driver =new EdgeDriver();
 			
 		}
-	logger=LogManager.getLogger(TC_login_002.class);
+	
+		logger=LogManager.getLogger("BS");
 		System.out.println("Setup is open");
+		
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
 	@AfterClass

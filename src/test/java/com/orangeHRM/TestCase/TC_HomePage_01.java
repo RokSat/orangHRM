@@ -1,5 +1,7 @@
 package com.orangeHRM.TestCase;
 
+import java.util.concurrent.TimeUnit;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -11,37 +13,50 @@ public class TC_HomePage_01 extends TC_login_002 {
 	
 	@Test
 	public void HomePage() throws InterruptedException {
-		Thread.sleep(10000);
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		Homepage hp =new Homepage(driver);
 		
 		hp.clickonAdmin();
-		Thread.sleep(10000);
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		
 			if(driver.getCurrentUrl().equals("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"))
 			{
 			Assert.assertTrue(true);
-			System.out.println("Admin Assertion Pass");
+			logger.info("Admin Ele Assertion passed : Url is Found correctly");
 			}
 			else {
 			Assert.assertTrue(false);
-			System.out.println("Admin Assertion fail");
+			logger.info(" Admin Ele Assertion fail : Url is Not-Found correctly");
 		}
+			logger.info("Admin Element Verified");
 		
 		hp.clickonPIM();
-		Thread.sleep(10000);
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		
 			if(driver.getCurrentUrl().equals("https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"))
 			{
 			Assert.assertTrue(true);
-			System.out.println("PIM Assertion Pass");
+			
+			logger.info("PIM Ele Assertion Passed : Url is Found correctly");
 			}
 			else {
 			Assert.assertTrue(false);
 			System.out.println("PIM Assertion fail");
+			logger.info("PIM Ele Assertion fail : Url is Not-Found correctly");
 			
 		}
+			logger.info("PIM Element Verified");
+			
 			hp.clickonLeave();
+			driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 			String url=driver.getCurrentUrl();
 			Assert.assertEquals(url, "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList");
-			System.out.println("Leave Assertion Pass");
+			
+			logger.info(" Leave Ele Assertion passed : Url Found correctly");
+			logger.info("leave Element Verified");
+			System.out.println("HomePage Verified");
 	}
+	
 
 }
+

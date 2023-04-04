@@ -1,0 +1,54 @@
+[INFO ] 2023-04-04 21:42:03.814 [main] BS -  Base_Url is opened
+[INFO ] 2023-04-04 21:42:04.623 [main] BS - UserName Entered
+[INFO ] 2023-04-04 21:42:04.754 [main] BS - Passward Entered
+[INFO ] 2023-04-04 21:42:06.311 [main] BS - Assertion is passed : Title Found OrangeHRM 
+[INFO ] 2023-04-04 21:42:08.207 [main] BS - Admin Ele Assertion passed : Url is Found correctly
+[INFO ] 2023-04-04 21:42:08.208 [main] BS - Admin Element Verified
+[INFO ] 2023-04-04 21:42:09.650 [main] BS - PIM Ele Assertion Passed : Url is Found correctly
+[INFO ] 2023-04-04 21:42:09.650 [main] BS - PIM Element Verified
+[INFO ] 2023-04-04 21:42:11.374 [main] BS -  Leave Ele Assertion passed : Url Found correctly
+[INFO ] 2023-04-04 21:42:11.375 [main] BS - leave Element Verified
+[INFO ] 2023-04-04 21:43:20.526 [main] BS -  Base_Url is opened
+[INFO ] 2023-04-04 21:43:21.414 [main] BS - UserName Entered
+[INFO ] 2023-04-04 21:43:21.534 [main] BS - Passward Entered
+[INFO ] 2023-04-04 21:43:22.913 [main] BS - Assertion is passed : Title Found OrangeHRM 
+[INFO ] 2023-04-04 21:43:24.654 [main] BS - Admin Ele Assertion passed : Url is Found correctly
+[INFO ] 2023-04-04 21:43:24.654 [main] BS - Admin Element Verified
+[INFO ] 2023-04-04 21:43:26.029 [main] BS - PIM Ele Assertion Passed : Url is Found correctly
+[INFO ] 2023-04-04 21:43:26.029 [main] BS - PIM Element Verified
+[INFO ] 2023-04-04 21:43:27.732 [main] BS -  Leave Ele Assertion passed : Url Found correctly
+[INFO ] 2023-04-04 21:43:27.733 [main] BS - leave Element Verified
+[INFO ] 2023-04-04 21:44:42.299 [main] BS -  Base_Url is opened
+[INFO ] 2023-04-04 21:44:43.247 [main] BS - UserName Entered
+[INFO ] 2023-04-04 21:44:43.373 [main] BS - Passward Entered
+[INFO ] 2023-04-04 21:44:44.617 [main] BS - Assertion is passed : Title Found OrangeHRM 
+[INFO ] 2023-04-04 21:44:45.965 [main] BS - Admin Ele Assertion passed : Url is Found correctly
+[INFO ] 2023-04-04 21:44:45.966 [main] BS - Admin Element Verified
+[INFO ] 2023-04-04 21:44:47.313 [main] BS - PIM Ele Assertion Passed : Url is Found correctly
+[INFO ] 2023-04-04 21:44:47.313 [main] BS - PIM Element Verified
+[INFO ] 2023-04-04 21:44:48.958 [main] BS -  Leave Ele Assertion passed : Url Found correctly
+[INFO ] 2023-04-04 21:44:48.958 [main] BS - leave Element Verified
+[INFO ] 2023-04-04 21:44:54.840 [main] BS -  Base_Url is opened
+[INFO ] 2023-04-04 21:44:55.818 [main] BS - UserName Entered
+[INFO ] 2023-04-04 21:44:55.950 [main] BS - Passward Entered
+[INFO ] 2023-04-04 21:44:57.131 [main] BS - Assertion is passed : Title Found OrangeHRM 
+[INFO ] 2023-04-04 21:44:59.047 [main] BS - Admin Ele Assertion passed : Url is Found correctly
+[INFO ] 2023-04-04 21:44:59.047 [main] BS - Admin Element Verified
+[INFO ] 2023-04-04 21:45:00.476 [main] BS - PIM Ele Assertion Passed : Url is Found correctly
+[INFO ] 2023-04-04 21:45:00.476 [main] BS - PIM Element Verified
+[INFO ] 2023-04-04 21:45:01.925 [main] BS -  Leave Ele Assertion passed : Url Found correctly
+[INFO ] 2023-04-04 21:45:01.925 [main] BS - leave Element Verified
+[INFO ] 2023-04-04 21:45:02.373 [main] BS - clicked on logout button
+[INFO ] 2023-04-04 21:45:04.093 [main] BS - Logout Successful
+[INFO ] 2023-04-04 21:45:50.600 [main] BS -  Base_Url is opened
+[INFO ] 2023-04-04 21:45:51.646 [main] BS - UserName Entered
+[INFO ] 2023-04-04 21:45:51.738 [main] BS - Passward Entered
+[INFO ] 2023-04-04 21:45:52.949 [main] BS - Assertion is passed : Title Found OrangeHRM 
+[INFO ] 2023-04-04 21:45:54.646 [main] BS - Admin Ele Assertion passed : Url is Found correctly
+[INFO ] 2023-04-04 21:45:54.646 [main] BS - Admin Element Verified
+[INFO ] 2023-04-04 21:45:56.134 [main] BS - PIM Ele Assertion Passed : Url is Found correctly
+[INFO ] 2023-04-04 21:45:56.134 [main] BS - PIM Element Verified
+[INFO ] 2023-04-04 21:45:57.698 [main] BS -  Leave Ele Assertion passed : Url Found correctly
+[INFO ] 2023-04-04 21:45:57.699 [main] BS - leave Element Verified
+[INFO ] 2023-04-04 21:45:58.171 [main] BS - clicked on logout button
+[INFO ] 2023-04-04 21:45:59.744 [main] BS - Logout Successful
