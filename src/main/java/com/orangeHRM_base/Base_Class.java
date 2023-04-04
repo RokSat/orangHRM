@@ -6,16 +6,15 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-
+// this class is Optional class
 public class Base_Class {
 	
-	
+	// config.Properties
 	public String burl="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 	public String uname="Admin";
 	public String paswrd="admin123";
+	
 	public static WebDriver driver;
-	
-	
 	
 	@BeforeClass
 	public void setUp() {

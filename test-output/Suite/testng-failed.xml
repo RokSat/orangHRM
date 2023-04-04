@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="Browser" value="chrome"/>
   <test thread-count="5" name="test(failed)">
     <classes>
-      <class name="com.orangeHRM.TestCase.TC_Logout_001">
+      <class name="com.orangeHRM.TestCase.TC_HomePage_01">
         <methods>
-          <include name="Logout"/>
           <include name="browserClosed"/>
+          <include name="HomePage"/>
           <include name="setUp"/>
           <include name="LoginTest"/>
         </methods>
-      </class> <!-- com.orangeHRM.TestCase.TC_Logout_001 -->
+      </class> <!-- com.orangeHRM.TestCase.TC_HomePage_01 -->
     </classes>
   </test> <!-- test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
